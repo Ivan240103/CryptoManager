@@ -1,0 +1,45 @@
+<!-- registrazione nuovo utente -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="author" content="Ivan De Simone">
+    <meta charset="utf-8">
+    <link rel="icon" href="../images/icon.jpg">
+    <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="../css/pages.css">
+    <script type="text/javascript" src="../js/script.js"></script>
+    <title>Sign up</title>
+  </head>
+  <body>
+    <header>
+      <h1>CryptoManager</h1>
+    </header>
+    <nav>
+      <table>
+        <thead>
+          <th><a href="javascript:history.go(-1)">< Back</a></th>
+          <th><span class="current">Registration</span></th>
+        </thead>
+      </table>
+    </nav>
+    <main>
+      <form class="data" action="registration.php" method="post">
+        <label for="email">Email </label>
+        <input type="text" name="email" placeholder="Your email" required><br>
+        <label for="name">Name </label>
+        <input type="text" name="name" placeholder="Your name"><br>
+        <label for="surname">Surname </label>
+        <input type="text" name="surname" placeholder="Your surname"><br>
+        <label for="user">Username </label>
+        <input type="text" name="user" placeholder="Username" required><br>
+        <label for="psw">Password </label>
+        <input type="password" name="psw" placeholder="Password" required><br>
+        <input class="captcha" type="checkbox" required> I am not a robot<br>
+        <div class="buttons">
+          <button class="reset" type="reset">Clear</button>
+          <button class="submit" type="submit">Sign up</button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

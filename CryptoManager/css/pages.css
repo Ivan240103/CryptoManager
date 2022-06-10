@@ -1,0 +1,67 @@
+/* PROFILE */
+section.personal {
+  margin-top: 70px;
+}
+button.logout {
+  width: 250px;
+  margin: 30px auto 15px;
+  padding: 10px 5px;
+  border: 2px solid var(--primaryDark);
+  border-radius: 5px;
+  background-color: var(--text);
+  font-size: 90%;
+  font-weight: bold;
+  color: var(--primaryDark);
+}
+button.logout:hover {
+  border: 2px solid var(--primaryLight);
+  cursor: pointer;
+}
+
+/* LOGIN E SIGNUP */
+form.data {
+  width: 250px;
+  margin: 70px auto 0px;
+  text-align: left;
+}
+.data input {
+  width: 240px;
+  margin: 4px auto 15px;
+  padding: 10px 5px;
+  border: 0px;
+  border-radius: 5px;
+  font-size: 85%;
+}
+input.captcha {
+  width: auto;
+}
+div.buttons {
+  margin-top: 20px;
+}
+.data button {
+  width: 250px;
+  margin-bottom: 15px;
+  padding: 10px 5px;
+  border-radius: 5px;
+  font-size: 90%;
+  font-weight: bold;
+}
+button.reset {
+  border: 2px solid var(--primaryDark);
+  background-color: var(--text);
+  color: var(--primaryDark);
+}
+button.submit {
+  border: 2px solid var(--primaryDark);
+  background-color: var(--primaryDark);
+  color: var(--text);
+}
+button.reset:hover, button.submit:hover {
+  border: 2px solid var(--primaryLight);
+  cursor: pointer;
+}
+
+/* SIGNUP RESULT, ACCESS DENIED E LOGOUT */
+div.regInfo, div.deniedInfo, div.logoutInfo {
+  margin-top: 70px;
+}

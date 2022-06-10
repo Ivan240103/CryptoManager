@@ -1,0 +1,120 @@
+/* PAGINA PORTFOLIO */
+section.order {
+  width: 325px;
+  margin: auto;
+}
+.order button {
+  width: 150px;
+  height: 50px;
+  font-size: 100%;
+  font-weight: bold;
+  margin: 5px;
+}
+button.buy {
+  background-color: var(--green);
+}
+button.buy:hover {
+  background-color: green;
+  cursor: pointer;
+}
+button.sell {
+  background-color: var(--red);
+}
+button.sell:hover {
+  background-color: #d50000;
+  cursor: pointer;
+}
+
+section.asset {
+  margin-top: 50px;
+}
+.assetTable table {
+  margin: auto;
+  border: 1px solid var(--primaryDark);
+  border-collapse: collapse;
+}
+.assetTable th {
+  border: 1px solid var(--primaryDark);
+  padding: 15px 30px;
+  letter-spacing: 1px;
+}
+.assetTable td {
+  border: 1px solid var(--primaryDark);
+  padding: 10px 30px;
+}
+div.portDen {
+  margin-top: 70px;
+}
+
+/* PAGINE BUY E SELL */
+h2 {
+  font-size: 190%;
+  margin: 10px;
+}
+form.operation {
+  width: 250px;
+  margin: 50px auto 0px;
+  text-align: left;
+}
+.operation h3 {
+  text-align: center;
+}
+.operation input {
+  width: 240px;
+  margin: 4px auto 15px;
+  padding: 10px 5px;
+  border: 0px;
+  border-radius: 5px;
+  font-size: 85%;
+}
+.operation select {
+  width: 250px;
+  margin: 4px auto 15px;
+  padding: 10px 5px;
+  border: 0px;
+  border-radius: 5px;
+  font-size: 85%;
+}
+div.buttons {
+  margin-top: 20px;
+}
+.operation button {
+  width: 250px;
+  margin-bottom: 15px;
+  padding: 10px 5px;
+  border-radius: 5px;
+  font-size: 90%;
+  font-weight: bold;
+}
+button.cancel {
+  border: 2px solid var(--primaryDark);
+  background-color: var(--text);
+  color: var(--primaryDark);
+}
+button.submit {
+  border: 2px solid var(--primaryDark);
+  background-color: var(--primaryDark);
+  color: var(--text);
+}
+button.cancel:hover, button.submit:hover {
+  border: 2px solid var(--primaryLight);
+  cursor: pointer;
+}
+
+div.operation {
+  margin-top: 40px;
+}
+div.operation table {
+  margin: auto;
+  border: 1px solid var(--primaryDark);
+  border-collapse: collapse;
+}
+.operation th {
+  border: 1px solid var(--primaryDark);
+  padding: 15px 30px;
+  letter-spacing: 1px;
+}
+.operation td {
+  border: 1px solid var(--primaryDark);
+  padding: 10px 30px;
+}

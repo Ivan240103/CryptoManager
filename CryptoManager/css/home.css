@@ -1,0 +1,27 @@
+.top table {
+  margin: auto;
+  border: 1px solid var(--primaryDark);
+  border-collapse: collapse;
+}
+caption {
+  padding: 20px;
+}
+.top th {
+  border: 1px solid var(--primaryDark);
+  padding: 15px 40px;
+  letter-spacing: 1px;
+}
+.top td {
+  border: 1px solid var(--primaryDark);
+  padding: 12px 40px;
+}
+#rank {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+td.over {
+  color: var(--green);
+}
+td.under {
+  color: var(--red);
+}

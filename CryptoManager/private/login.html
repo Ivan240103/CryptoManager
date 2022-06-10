@@ -1,0 +1,38 @@
+<!-- accesso utente -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="author" content="Ivan De Simone">
+    <meta charset="utf-8">
+    <link rel="icon" href="../images/icon.jpg">
+    <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="../css/pages.css">
+    <script type="text/javascript" src="../js/script.js"></script>
+    <title>Login</title>
+  </head>
+  <body>
+    <header>
+      <h1>CryptoManager</h1>
+    </header>
+    <nav>
+      <table>
+        <thead>
+          <th><a href="javascript:history.go(-1)">< Back</a></th>
+          <th><span class="current">Login</span></th>
+        </thead>
+      </table>
+    </nav>
+    <main>
+      <form class="data" action="profile.php" method="post">
+        <label for="user">Username </label>
+        <input type="text" name="user" placeholder="Username"><br>
+        <label for="psw">Password </label>
+        <input type="password" name="psw" placeholder="Password"><br>
+        <p>Need an account? <a href="signup.html">Register</a></p>
+        <div class="buttons">
+          <button class="submit" type="submit">Login</button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
